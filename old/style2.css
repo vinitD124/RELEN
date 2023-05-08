@@ -1,0 +1,404 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito:wght@600&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+
+    
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+  
+}
+
+
+
+ul li{
+    list-style: none;
+}
+
+
+p{
+    color: white;
+}
+
+
+header{
+    height: 108vh;
+    width: 100%;
+    background-image: url("/mani image/header.jpg");
+    background-size: cover;
+    background-position: -10px -70px;
+}
+
+.logo{
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.nav-list{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.btn{
+    border: none;
+    background-color: #1391ff;
+    color: white;
+    padding: 8px 26px;
+    border-radius: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.nav-right i{
+    vertical-align: middle;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: grey;
+}
+
+
+
+
+nav .nav-list li a:hover{
+    color: white;
+    transition: all 0.1s ease-in;
+}
+.nav-list ul{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+nav .nav-list a.acive{
+    color: white;
+}
+
+
+
+nav{
+    display: flex;
+    /* background-color:    red; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    /* position: fixed; */
+    /* width: 100%; */
+    /* top: 0; */
+    /* background-color: white; */
+}
+
+
+.nav-right i{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-start:hover{
+    background-color: #024f93;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+
+header .main-text{
+    /* background-color: #1391ff; */
+    /* width: 30%; */
+    position: relative;
+    top: 110px;
+    padding-left: 100px;
+}
+
+header .main-text h1{
+    line-height: 75px;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    /* text-transform: uppercases; */
+}
+
+
+.main-text h1 span{
+    /* color: #51aeff; */
+    font-weight: 600;
+    /* letter-spacing: 10pxs; */
+    font-size: 75px;
+    color: #f5faff;
+  
+    
+}
+
+ .span-two{
+    color: #38a2ff;
+}
+
+.main-text p{
+    font-weight: 200;
+    color: rgb(230, 230, 230);
+    font-size: 15px;
+    width: 35%;
+    line-height: 26px;
+    margin-top: 10px;
+}
+
+.btn-learn{
+    /* border: 1px solid rgb(220, 220, 220); */
+    background-color: transparent;
+    /* padding: 08px 25px; */
+    font-size: 13px;
+    margin-top: 40px;
+    margin-left: 0;
+    padding: 0;
+    border-bottom: 1px solid #1391ff;
+    padding-bottom: 12px;
+    font-weight: 400;
+    border-radius: 0;
+    /* text-transform: uppercase; */
+ 
+}
+
+.section-partner{
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: red; */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.container img{
+    width: 10%;
+    vertical-align: middle;
+}
+
+.extra{
+    height: 100vh;
+    /* background-color: white; */
+}
+
+
+.graphic{
+    /* background-color: red; */
+    
+     margin: 50px 0;
+    /* margin-bottom: 120px; */
+}
+
+.graphic img{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.graphic-img{
+    width: 600px;
+    /* border: 1px solid white; */
+}
+
+.details{
+    /* background-color: red; */
+    margin-top: 150px;
+}
+
+
+.detail-card-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.detail-content{
+    width: 40%;
+}
+
+.detail-content h3{
+    font-size: 2rem;
+    font-weight: 500;
+    width: 70%;
+    margin-bottom: 13px;
+}
+
+.detail-content p{
+    width: 80%;
+    line-height: 20 px;
+    font-size: 12px;
+    color: rgb(165, 165, 165);
+    
+}
+
+.detail-card-2{
+    /* width: 40%; */
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.detail-card-2 h3{
+    width: 80%;
+}
+
+
+.detail-card-2 p{
+    z-index: 100;
+    position: relative;
+}
+
+.detail-card-2 img{
+    margin-left: -80px;
+}
+
+.cards{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 230px;
+}
+
+.card{
+    background-color: #161a22;
+    width: 20%;
+    padding: 30px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.card h1{
+    margin-top: 20px;
+}
+
+.card p{
+    font-size: 12px;
+    color: rgb(206, 206, 206);
+    margin: 14px 0;
+    line-height: 21px;
+}
+
+.card i{
+    font-size: 33px;
+    background-color: black;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    top: -25px;
+    left: 125px;
+ 
+   
+}
+
+.btn2{
+    margin-top: 05px;
+    padding: 8px 15px;
+    text-align: center;
+    background-color: transparent;
+    color: #7dc3ff;
+}
+
+
+.footer-one{
+    /* background-color: red; */
+    margin: 230px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 250px;   
+    margin-bottom: 100px;
+}
+
+.footer-one p{
+    font-size: 36px;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.left .logo{
+    color: #1391ff;
+}
+
+.footer-one img{
+    width: 30%;
+}
+
+.btn3{
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+    /* background-color: #024f93; */
+    background-color: #1391ff;
+    padding: 07px 20px;
+   
+}
+
+footer{
+    /* background-color: red; */
+    /* height: 20vh;     */
+}
+
+.footer-navbar{
+    background-color: #1391ff;
+    background-color: #161a22;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 220px;
+    margin-top: 100px;
+    
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.list h3{
+    font-size: 15px;
+}
+
+.social-media .social-media-icons{
+    height: 25px;
+    margin: 10px 0;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #161a22;
+}
+
+
+.footer-navbar p{
+        font-size: 13px;
+}
+
+.footer-navbar i{
+    font-size: 15px;
+    
+}
+

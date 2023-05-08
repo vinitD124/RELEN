@@ -1,0 +1,11 @@
+Neural networks
+<i class='bx bxl-graphql'></i>
+Structured to be similar to the human brain, this AI model incorporates natural language processing and deep learning to identify faces in photos and analyze handwriting
+
+Semantic analysis
+<i class='bx bx-git-compare'></i>
+A more sophisticated form of Natural Language Processing, this concept is focused on the process of stringing words together as well as the way that language is understood through cultural context.
+
+Cognitive science
+<i class='bx bx-check-shield'></i>
+The broader form of study that includes AI in addition to philosophy, linguistics, psychology, neuroscience, and anthropology. All of these combine together to learn how the mind functions and, when applied to AI.
