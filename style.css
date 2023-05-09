@@ -841,6 +841,7 @@ card-one .card .right {
         justify-content: center;
         align-items: center;
         background-position: center center;
+        background-position: -464px -50px;
     }
 
     nav{
